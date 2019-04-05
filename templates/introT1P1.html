@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href= "Styles/introPage1.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<html>
+<head>
+	<title>Instructions</title>
+</head>
+<body>
+	<div id="description1" style="text-align: center">
+		<div class="child">
+			<h2>Instructions</h2>
+			<p>In this activity, you will see two expressions.</p>
+			<table border="1" align="center">
+				<tr>
+					<td height="5%"><img id="img1" src="{{ url_for('static', filename='Images/1.jpg')}}"></td>
+					<td height="5%"><img id="img2" src="{{ url_for('static', filename='Images/2.jpg')}}"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="child" id="secondDiv">
+			<p>Your job is to decide whether these two expressions are equivalent or not.</p>
+		</div>
+		<div class="child" id="thirdDiv">
+			<p>Click the button to record ur answer. </p>
+			<div id="buttons">
+	            <button id="eq">Equivalent</button> &emsp;&emsp;
+	            <button id="neq">Not equivalent</button>
+       		</div>
+		</div>
+		<div class="child" id="fourthDiv">
+			<p>Do it as quickly and as accurately as you can!</p>
+		</div>
+        <div>
+            <p>
+               <input type="image" value="begin" id="begin_btn"
+                   src="{{ url_for('static', filename='Images/next.jpg')}}"
+                      onclick="document.getElementById('description2').style.display='block';
+                            document.getElementById('description1').style.display='none';">
+            </p>
+        </div>
+	</div>
+
+
+
+
+    <div id="description2" style="display:none;">
+        <form action="/transition" method="post" style="text-align: center">
+            <p>Let's try it together!</p>
+            <p>
+               <input type="image" value="begin" id="begin_btn"
+                   src="{{ url_for('static', filename='Images/next.jpg')}}">
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>

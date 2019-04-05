@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href= "{{ url_for('static', filename="Styles/task1.css")}}">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{
+        url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="child">
+            <div>
+                <h2 id="heading">Practice</h2>
+            </div>
+            <p>Are these two expressions equivalent?</p> <br>
+            <div class="child" id="problemWindow">
+                <table>
+                    <tr>
+                        <td><img id="p1" src="{{ url_for('static', filename='Images-T1/Part1.Practice1.Expression1.png')}}"></td>
+                        <td><img id="p2" src="{{ url_for('static', filename='Images-T1/Part1.Practice1.Expression2.png')}}"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+		<script type="text/javascript">
+
+            $.getJSON($SCRIPT_ROOT + '/_log_event', 'type=PROBLEM_START&name=problem_1&value=' +
+                '{{ url_for('static', filename='Images-T1/Part1.Practice1.Expression1.png')}}' + ',' +
+                    '{{ url_for('static', filename='Images-T1/Part1.Practice1.Expression1.png')}}',
+                    function(data){});
+
+            var p2img1 = new Image(); 
+            var p2img2 = new Image(); 
+            p2img1.src = "{{ url_for('static', filename='Images-T1/Part1.Practice2.Expression1.png')}}";
+            p2img2.src = "{{ url_for('static', filename='Images-T1/Part1.Practice2.Expression2.png')}}";
+
+            var p3img1 = new Image(); 
+            var p3img2 = new Image(); 
+            p3img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test1.Expression1.png')}}";
+            p3img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test1.Expression2.png')}}";
+
+            var p4img1 = new Image(); 
+            var p4img2 = new Image(); 
+            p4img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test2.Expression1.png')}}";
+            p4img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test2.Expression2.png')}}";
+
+            var p5img1 = new Image(); 
+            var p5img2 = new Image(); 
+            p5img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test3.Expression1.png')}}";
+            p5img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test3.Expression2.png')}}";
+
+            var p6img1 = new Image(); 
+            var p6img2 = new Image(); 
+            p6img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test4.Expression1.png')}}";
+            p6img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test4.Expression2.png')}}";
+
+            var p7img1 = new Image(); 
+            var p7img2 = new Image(); 
+            p7img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test5.Expression1.png')}}";
+            p7img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test5.Expression2.png')}}";
+
+            var p8img1 = new Image(); 
+            var p8img2 = new Image(); 
+            p8img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test6.Expression1.png')}}";
+            p8img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test6.Expression2.png')}}";
+
+            var p9img1 = new Image(); 
+            var p9img2 = new Image(); 
+            p9img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test7.Expression1.png')}}";
+            p9img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test7.Expression2.png')}}";
+
+            var p10img1 = new Image(); 
+            var p10img2 = new Image(); 
+            p10img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test8.Expression1.png')}}";
+            p10img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test8.Expression2.png')}}";
+
+            var p11img1 = new Image(); 
+            var p11img2 = new Image(); 
+            p11img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test9.Expression1.png')}}";
+            p11img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test9.Expression2.png')}}";
+
+            var p12img1 = new Image(); 
+            var p12img2 = new Image(); 
+            p12img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test10.Expression1.png')}}";
+            p12img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test10.Expression2.png')}}";
+
+            var p13img1 = new Image(); 
+            var p13img2 = new Image();
+            p13img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test11.Expression1.png')}}";
+            p13img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test11.Expression2.png')}}";
+
+            var p14img1 = new Image(); 
+            var p14img2 = new Image(); 
+            p14img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test12.Expression1.png')}}";
+            p14img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test12.Expression2.png')}}";
+
+            var p15img1 = new Image(); 
+            var p15img2 = new Image(); 
+            p15img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test13.Expression1.png')}}";
+            p15img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test13.Expression2.png')}}";
+
+            var p16img1 = new Image(); 
+            var p16img2 = new Image(); 
+            p16img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test14.Expression1.png')}}";
+            p16img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test14.Expression2.png')}}";
+
+            var p17img1 = new Image(); 
+            var p17img2 = new Image(); 
+            p17img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test15.Expression1.png')}}";
+            p17img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test15.Expression2.png')}}";
+
+            var p18img1 = new Image(); 
+            var p18img2 = new Image(); 
+            p18img1.src = "{{ url_for('static', filename='Images-T1/Part1.Test16.Expression1.png')}}";
+            p18img2.src = "{{ url_for('static', filename='Images-T1/Part1.Test16.Expression2.png')}}";
+
+			var problems = [p2img1, p2img2, p3img1, p3img2, p4img1, p4img2, p5img1, p5img2, p6img1, p6img2, p7img1, p7img2, p8img1, p8img2, p9img1, p9img2, p10img1, p10img2, p11img1, p11img2, p12img1, p12img2, p13img1, p13img2, p14img1, p14img2, p15img1, p15img2, p16img1, p16img2]; 
+
+
+			var x=0; 
+
+			function nextProblem() {
+                if(x==problems.length-2) 
+                    window.location.href = "/transition";
+                else if(x==0) {
+                    alert("\t\t\t\tDid you select EQUIVALENT? \n\t\t\t\t    1-2 is equivalent to -2+1\n\n\t\t\t\t       Let's try another one!")
+                }
+                else if(x==2) {
+                    alert("\t\t\t\tDid you select NOT EQUIVALENT? \n\t\t\t     3y+4=10 is not equivalent to 3+4y=10\n\n\t\t\t\t\t NOW IT'S YOUR TURN!")
+                    alert("\t\t\t\t\t\t      NOTE:\n\t\t\t\tWe want to know what you think, \n   so we WILL NOT tell you whether your answer is right or wrong. \n\n\tOnce you select your answer, the next problem will come up.\n\n\n\t   Please remember to choose your answer as quickly and as \n\t\t\t\t\t  accurately as you can!")
+                    document.getElementById("heading").innerText = "Problems";
+                }
+                document.getElementById("p1").src = problems[x].src; 
+                document.getElementById("p2").src = problems[x+1].src;
+
+                $.getJSON($SCRIPT_ROOT + '/_log_event', 'type=PROBLEM_START&name=problem_'+
+                    (2+(x/2)).toString() + '&value=' + problems[x].src.toString() + ',' +
+                    problems[x+1].src.toString(),
+                    function(data){});
+
+			    x+=2; 
+			}
+
+
+			function logEquivalent() {
+			    $.getJSON($SCRIPT_ROOT + '/_log_user_event', 'type=BUTTON_PRESS&name=Equivalent&value=1',
+                    function(data){});
+
+			    nextProblem();
+            }
+
+            function logNonEquivalent() {
+                $.getJSON($SCRIPT_ROOT + '/_log_event', 'type=BUTTON_PRESS&name=Equivalent&value=0',
+                    function(data){});
+
+			    nextProblem();
+            }
+
+        </script>
+
+
+        <div id="buttons">
+            <p>
+            <button onclick="logEquivalent()" id="eq">Equivalent</button> &emsp;&emsp;
+            <button onclick="logNonEquivalent()" id="neq">Not equivalent</button>
+            </p>
+        </div>
+
+        
+    </div>    
+
+</body>
+</html>

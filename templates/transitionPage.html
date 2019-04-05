@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href= "Styles/introPage2.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="wrapper" style="text-align: center">
+        <form action="/transition" method="post" style="text-align: center">
+            <p>Thank you for working so hard on this activity! When you're ready to go on, click on the arrow to move onto the next task.</p>
+            <p>
+               <input type="image" value="begin" id="begin_btn"
+                   src="{{ url_for('static', filename='Images/next.jpg')}}">
+            </p>
+        </form>
+	</div>
+
+</body>
+</html>

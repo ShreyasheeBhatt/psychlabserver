@@ -1,0 +1,52 @@
+body {
+	text-align: center; 
+}
+
+#wrapper {
+	position: relative;
+	text-align: center;
+	margin-top: 3%;
+	padding: 6%;
+}
+
+.child {
+	display: inline-block;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+td {
+	border-style: solid;
+	border-color: black;
+}
+
+#problemWindow {
+	height: 200px; 
+	padding: 10px; 
+}
+
+#p1 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p2 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+button {
+	font-size: 1.5em;
+}
+
+

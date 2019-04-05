@@ -1,0 +1,81 @@
+body {
+	text-align: center;
+}
+
+ #wrapper {
+ 	position: relative;
+ 	text-align: center;
+ 	margin-top: 0.5%;
+ 	padding: 6%;
+ }
+
+.child {
+	display: inline-block;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#target img{
+    height: 60px;
+}
+
+#problemWindow {
+	height: 200px; 
+	padding: 10px; 
+}
+
+#p1 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p2 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p3 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p4 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p5 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#p6 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+button {
+	border-color: black;
+	border-style: solid;
+	height: 100px;
+	width: 375px;
+}
+

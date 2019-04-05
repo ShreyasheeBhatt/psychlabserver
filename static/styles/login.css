@@ -1,0 +1,28 @@
+#wrapper {
+	position: relative;
+	text-align: center;
+	border-style: solid; 
+	border-color: rgb(0,0,0);
+	margin-top: 5%;
+	padding: 14%;
+}
+
+#child {
+	display: inline-block;
+}
+
+
+#directions {
+	font-size: 1.5em;
+}
+
+#username {
+	font-size: 1.5em;
+}
+
+img {
+	height: 100px;
+	position: absolute;
+	bottom: 4%; 
+	right: 5%;
+}

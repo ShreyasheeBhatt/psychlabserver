@@ -361,6 +361,7 @@ def db_query(db_object, query, arguments=None, return_column_names=False):
     cur = db_object.cursor()
     try:
         cur.execute(query)
+        db_object.commit()
     except Exception:
         import traceback
         print('\033[91m')
@@ -369,6 +370,7 @@ def db_query(db_object, query, arguments=None, return_column_names=False):
 
     try:
         if return_column_names:
+            db_object.commit()
             return cur.fetchall(), [desc[0] for desc in cur.description]
         else:
             return cur.fetchall()

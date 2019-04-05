@@ -1,0 +1,362 @@
+var p2img1 = new Image(); 
+var p2img2 = new Image();
+var p2img3 = new Image();
+var p2img4 = new Image();
+var p2img5 = new Image();
+var p2img6 = new Image(); 
+p2img1.src = "Images-T2a/Part2a.Practice2.Expression1.png";
+p2img2.src = "Images-T2a/Part2a.Practice2.Expression2.png";
+p2img3.src = "Images-T2a/Part2a.Practice2.Expression3.png";
+p2img4.src = "Images-T2a/Part2a.Practice2.Expression4.png";
+p2img5.src = "Images-T2a/Part2a.Practice2.Expression5.png";
+p2img6.src = "Images-T2a/Part2a.Practice2.Expression6.png";
+
+var p3img1 = new Image(); 
+var p3img2 = new Image();
+var p3img3 = new Image();
+var p3img4 = new Image();
+var p3img5 = new Image();
+var p3img6 = new Image(); 
+p3img1.src = "Images-T2a/Part2a.Test1.Expression1.png";
+p3img2.src = "Images-T2a/Part2a.Test1.Expression2.png";
+p3img3.src = "Images-T2a/Part2a.Test1.Expression3.png";
+p3img4.src = "Images-T2a/Part2a.Test1.Expression4.png";
+p3img5.src = "Images-T2a/Part2a.Test1.Expression5.png";
+p3img6.src = "Images-T2a/Part2a.Test1.Expression6.png";
+
+var p4img1 = new Image(); 
+var p4img2 = new Image();
+var p4img3 = new Image();
+var p4img4 = new Image();
+var p4img5 = new Image();
+var p4img6 = new Image(); 
+p4img1.src = "Images-T2a/Part2a.Test2.Expression1.png";
+p4img2.src = "Images-T2a/Part2a.Test2.Expression2.png";
+p4img3.src = "Images-T2a/Part2a.Test2.Expression3.png";
+p4img4.src = "Images-T2a/Part2a.Test2.Expression4.png";
+p4img5.src = "Images-T2a/Part2a.Test2.Expression5.png";
+p4img6.src = "Images-T2a/Part2a.Test2.Expression6.png";
+
+var p5img1 = new Image(); 
+var p5img2 = new Image();
+var p5img3 = new Image();
+var p5img4 = new Image();
+var p5img5 = new Image();
+var p5img6 = new Image(); 
+p5img1.src = "Images-T2a/Part2a.Test3.Expression1.png";
+p5img2.src = "Images-T2a/Part2a.Test3.Expression2.png";
+p5img3.src = "Images-T2a/Part2a.Test3.Expression3.png";
+p5img4.src = "Images-T2a/Part2a.Test3.Expression4.png";
+p5img5.src = "Images-T2a/Part2a.Test3.Expression5.png";
+p5img6.src = "Images-T2a/Part2a.Test3.Expression6.png";
+
+var p6img1 = new Image(); 
+var p6img2 = new Image();
+var p6img3 = new Image();
+var p6img4 = new Image();
+var p6img5 = new Image();
+var p6img6 = new Image(); 
+p6img1.src = "Images-T2a/Part2a.Test4.Expression1.png";
+p6img2.src = "Images-T2a/Part2a.Test4.Expression2.png";
+p6img3.src = "Images-T2a/Part2a.Test4.Expression3.png";
+p6img4.src = "Images-T2a/Part2a.Test4.Expression4.png";
+p6img5.src = "Images-T2a/Part2a.Test4.Expression5.png";
+p6img6.src = "Images-T2a/Part2a.Test4.Expression6.png";
+
+var p7img1 = new Image(); 
+var p7img2 = new Image();
+var p7img3 = new Image();
+var p7img4 = new Image();
+var p7img5 = new Image();
+var p7img6 = new Image(); 
+p7img1.src = "Images-T2a/Part2a.Test5.Expression1.png";
+p7img2.src = "Images-T2a/Part2a.Test5.Expression2.png";
+p7img3.src = "Images-T2a/Part2a.Test5.Expression3.png";
+p7img4.src = "Images-T2a/Part2a.Test5.Expression4.png";
+p7img5.src = "Images-T2a/Part2a.Test5.Expression5.png";
+p7img6.src = "Images-T2a/Part2a.Test5.Expression6.png";
+
+var p8img1 = new Image(); 
+var p8img2 = new Image();
+var p8img3 = new Image();
+var p8img4 = new Image();
+var p8img5 = new Image();
+var p8img6 = new Image(); 
+p8img1.src = "Images-T2a/Part2a.Test6.Expression1.png";
+p8img2.src = "Images-T2a/Part2a.Test6.Expression2.png";
+p8img3.src = "Images-T2a/Part2a.Test6.Expression3.png";
+p8img4.src = "Images-T2a/Part2a.Test6.Expression4.png";
+p8img5.src = "Images-T2a/Part2a.Test6.Expression5.png";
+p8img6.src = "Images-T2a/Part2a.Test6.Expression6.png";
+
+var p9img1 = new Image(); 
+var p9img2 = new Image();
+var p9img3 = new Image();
+var p9img4 = new Image();
+var p9img5 = new Image();
+var p9img6 = new Image(); 
+p9img1.src = "Images-T2a/Part2a.Test7.Expression1.png";
+p9img2.src = "Images-T2a/Part2a.Test7.Expression2.png";
+p9img3.src = "Images-T2a/Part2a.Test7.Expression3.png";
+p9img4.src = "Images-T2a/Part2a.Test7.Expression4.png";
+p9img5.src = "Images-T2a/Part2a.Test7.Expression5.png";
+p9img6.src = "Images-T2a/Part2a.Test7.Expression6.png";
+
+var p10img1 = new Image(); 
+var p10img2 = new Image();
+var p10img3 = new Image();
+var p10img4 = new Image();
+var p10img5 = new Image();
+var p10img6 = new Image(); 
+p10img1.src = "Images-T2a/Part2a.Test8.Expression1.png";
+p10img2.src = "Images-T2a/Part2a.Test8.Expression2.png";
+p10img3.src = "Images-T2a/Part2a.Test8.Expression3.png";
+p10img4.src = "Images-T2a/Part2a.Test8.Expression4.png";
+p10img5.src = "Images-T2a/Part2a.Test8.Expression5.png";
+p10img6.src = "Images-T2a/Part2a.Test8.Expression6.png";
+
+var p11img1 = new Image(); 
+var p11img2 = new Image();
+var p11img3 = new Image();
+var p11img4 = new Image();
+var p11img5 = new Image();
+var p11img6 = new Image(); 
+p11img1.src = "Images-T2b/Part2b.Practice1.Expression1.png";
+p11img2.src = "Images-T2b/Part2b.Practice1.Expression2.png";
+p11img3.src = "Images-T2b/Part2b.Practice1.Expression3.png";
+p11img4.src = "Images-T2b/Part2b.Practice1.Expression4.png";
+p11img5.src = "Images-T2b/Part2b.Practice1.Expression5.png";
+p11img6.src = "Images-T2b/Part2b.Practice1.Expression6.png";
+
+var p12img1 = new Image(); 
+var p12img2 = new Image();
+var p12img3 = new Image();
+var p12img4 = new Image();
+var p12img5 = new Image();
+var p12img6 = new Image(); 
+p12img1.src = "Images-T2b/Part2b.Practice2.Expression1.png";
+p12img2.src = "Images-T2b/Part2b.Practice2.Expression2.png";
+p12img3.src = "Images-T2b/Part2b.Practice2.Expression3.png";
+p12img4.src = "Images-T2b/Part2b.Practice2.Expression4.png";
+p12img5.src = "Images-T2b/Part2b.Practice2.Expression5.png";
+p12img6.src = "Images-T2b/Part2b.Practice2.Expression6.png";
+
+var p13img1 = new Image(); 
+var p13img2 = new Image();
+var p13img3 = new Image();
+var p13img4 = new Image();
+var p13img5 = new Image();
+var p13img6 = new Image(); 
+p13img1.src = "Images-T2b/Part2b.Test1.Expression1.png";
+p13img2.src = "Images-T2b/Part2b.Test1.Expression2.png";
+p13img3.src = "Images-T2b/Part2b.Test1.Expression3.png";
+p13img4.src = "Images-T2b/Part2b.Test1.Expression4.png";
+p13img5.src = "Images-T2b/Part2b.Test1.Expression5.png";
+p13img6.src = "Images-T2b/Part2b.Test1.Expression6.png";
+
+var p14img1 = new Image(); 
+var p14img2 = new Image();
+var p14img3 = new Image();
+var p14img4 = new Image();
+var p14img5 = new Image();
+var p14img6 = new Image(); 
+p14img1.src = "Images-T2b/Part2b.Test2.Expression1.png";
+p14img2.src = "Images-T2b/Part2b.Test2.Expression2.png";
+p14img3.src = "Images-T2b/Part2b.Test2.Expression3.png";
+p14img4.src = "Images-T2b/Part2b.Test2.Expression4.png";
+p14img5.src = "Images-T2b/Part2b.Test2.Expression5.png";
+p14img6.src = "Images-T2b/Part2b.Test2.Expression6.png";
+
+var p15img1 = new Image(); 
+var p15img2 = new Image();
+var p15img3 = new Image();
+var p15img4 = new Image();
+var p15img5 = new Image();
+var p15img6 = new Image(); 
+p15img1.src = "Images-T2b/Part2b.Test3.Expression1.png";
+p15img2.src = "Images-T2b/Part2b.Test3.Expression2.png";
+p15img3.src = "Images-T2b/Part2b.Test3.Expression3.png";
+p15img4.src = "Images-T2b/Part2b.Test3.Expression4.png";
+p15img5.src = "Images-T2b/Part2b.Test3.Expression5.png";
+p15img6.src = "Images-T2b/Part2b.Test3.Expression6.png";
+
+var p16img1 = new Image(); 
+var p16img2 = new Image();
+var p16img3 = new Image();
+var p16img4 = new Image();
+var p16img5 = new Image();
+var p16img6 = new Image(); 
+p16img1.src = "Images-T2b/Part2b.Test4.Expression1.png";
+p16img2.src = "Images-T2b/Part2b.Test4.Expression2.png";
+p16img3.src = "Images-T2b/Part2b.Test4.Expression3.png";
+p16img4.src = "Images-T2b/Part2b.Test4.Expression4.png";
+p16img5.src = "Images-T2b/Part2b.Test4.Expression5.png";
+p16img6.src = "Images-T2b/Part2b.Test4.Expression6.png";
+
+var p17img1 = new Image(); 
+var p17img2 = new Image();
+var p17img3 = new Image();
+var p17img4 = new Image();
+var p17img5 = new Image();
+var p17img6 = new Image(); 
+p17img1.src = "Images-T2b/Part2b.Test5.Expression1.png";
+p17img2.src = "Images-T2b/Part2b.Test5.Expression2.png";
+p17img3.src = "Images-T2b/Part2b.Test5.Expression3.png";
+p17img4.src = "Images-T2b/Part2b.Test5.Expression4.png";
+p17img5.src = "Images-T2b/Part2b.Test5.Expression5.png";
+p17img6.src = "Images-T2b/Part2b.Test5.Expression6.png";
+
+var p18img1 = new Image(); 
+var p18img2 = new Image();
+var p18img3 = new Image();
+var p18img4 = new Image();
+var p18img5 = new Image();
+var p18img6 = new Image(); 
+p18img1.src = "Images-T2b/Part2b.Test6.Expression1.png";
+p18img2.src = "Images-T2b/Part2b.Test6.Expression2.png";
+p18img3.src = "Images-T2b/Part2b.Test6.Expression3.png";
+p18img4.src = "Images-T2b/Part2b.Test6.Expression4.png";
+p18img5.src = "Images-T2b/Part2b.Test6.Expression5.png";
+p18img6.src = "Images-T2b/Part2b.Test6.Expression6.png";
+
+var p19img1 = new Image(); 
+var p19img2 = new Image();
+var p19img3 = new Image();
+var p19img4 = new Image();
+var p19img5 = new Image();
+var p19img6 = new Image(); 
+p19img1.src = "Images-T2b/Part2b.Test7.Expression1.png";
+p19img2.src = "Images-T2b/Part2b.Test7.Expression2.png";
+p19img3.src = "Images-T2b/Part2b.Test7.Expression3.png";
+p19img4.src = "Images-T2b/Part2b.Test7.Expression4.png";
+p19img5.src = "Images-T2b/Part2b.Test7.Expression5.png";
+p19img6.src = "Images-T2b/Part2b.Test7.Expression6.png";
+
+var p20img1 = new Image(); 
+var p20img2 = new Image();
+var p20img3 = new Image();
+var p20img4 = new Image();
+var p20img5 = new Image();
+var p20img6 = new Image(); 
+p20img1.src = "Images-T2b/Part2b.Test8.Expression1.png";
+p20img2.src = "Images-T2b/Part2b.Test8.Expression2.png";
+p20img3.src = "Images-T2b/Part2b.Test8.Expression3.png";
+p20img4.src = "Images-T2b/Part2b.Test8.Expression4.png";
+p20img5.src = "Images-T2b/Part2b.Test8.Expression5.png";
+p20img6.src = "Images-T2b/Part2b.Test8.Expression6.png";
+
+var problems = [p2img1, p2img2, p2img3, p2img4, p2img5, p2img6, 
+                p3img1, p3img2, p3img3, p3img4, p3img5, p3img6, 
+                p4img1, p4img2, p4img3, p4img4, p4img5, p4img6, 
+                p5img1, p5img2, p5img3, p5img4, p5img5, p5img6, 
+                p6img1, p6img2, p6img3, p6img4, p6img5, p6img6, 
+                p7img1, p7img2, p7img3, p7img4, p7img5, p7img6, 
+                p8img1, p8img2, p8img3, p8img4, p8img5, p8img6, 
+                p9img1, p9img2, p9img3, p9img4, p9img5, p9img6, 
+                p10img1, p10img2, p10img3, p10img4, p10img5, p10img6, 
+                p11img1, p11img2, p11img3, p11img4, p11img5, p11img6, 
+                p12img1, p12img2, p12img3, p12img4, p12img5, p12img6, 
+                p13img1, p13img2, p13img3, p13img4, p13img5, p13img6, 
+                p14img1, p14img2, p14img3, p14img4, p14img5, p14img6, 
+                p15img1, p15img2, p15img3, p15img4, p15img5, p15img6, 
+                p16img1, p16img2, p16img3, p16img4, p16img5, p16img6, 
+                p17img1, p17img2, p17img3, p17img4, p17img5, p17img6, 
+                p18img1, p18img2, p18img3, p18img4, p18img5, p18img6, 
+                p19img1, p19img2, p19img3, p19img4, p19img5, p19img6, 
+                p20img1, p20img2, p20img3, p20img4, p20img5, p20img6]; 
+
+
+var p1pt2 = new Image();
+var p1t1 = new Image();
+var p1t2 = new Image();
+var p1t3 = new Image();
+var p1t4 = new Image();
+var p1t5 = new Image();
+var p1t6 = new Image();
+var p1t7 = new Image();
+var p1t8 = new Image();
+p1pt2.src = "Images-T2a/Part2a.Practice2.Target.png";
+p1t1.src = "Images-T2a/Part2a.Test1.Target.png";
+p1t2.src = "Images-T2a/Part2a.Test2.Target.png";
+p1t3.src = "Images-T2a/Part2a.Test3.Target.png";
+p1t4.src = "Images-T2a/Part2a.Test4.Target.png";
+p1t5.src = "Images-T2a/Part2a.Test5.Target.png";
+p1t6.src = "Images-T2a/Part2a.Test6.Target.png";
+p1t7.src = "Images-T2a/Part2a.Test7.Target.png";
+p1t8.src = "Images-T2a/Part2a.Test8.Target.png";
+
+
+var p2pt1 = new Image();
+var p2pt2 = new Image();
+var p2t1 = new Image();
+var p2t2 = new Image();
+var p2t3 = new Image();
+var p2t4 = new Image();
+var p2t5 = new Image();
+var p2t6 = new Image();
+var p2t7 = new Image();
+var p2t8 = new Image();
+p2pt1.src = "Images-T2b/Part2b.Practice1.Target.png";
+p2pt2.src = "Images-T2b/Part2b.Practice2.Target.png";
+p2t1.src = "Images-T2b/Part2b.Test1.Target.png";
+p2t2.src = "Images-T2b/Part2b.Test2.Target.png";
+p2t3.src = "Images-T2b/Part2b.Test3.Target.png";
+p2t4.src = "Images-T2b/Part2b.Test4.Target.png";
+p2t5.src = "Images-T2b/Part2b.Test5.Target.png";
+p2t6.src = "Images-T2b/Part2b.Test6.Target.png";
+p2t7.src = "Images-T2b/Part2b.Test7.Target.png";
+p2t8.src = "Images-T2b/Part2b.Test8.Target.png";
+
+var targets = [p1pt2, p1t1, p1t2, p1t3, p1t4, p1t5, p1t6, p1t7, p1t8,
+               p2pt1, p2pt2, p2t1, p2t2, p2t3, p2t4, p2t5, p2t6, p2t7, p2t8];
+
+var x=0;
+
+function nextProblem() {
+    if(x==problems.length-6)
+        window.location.href = "thankyou.html";
+    else if(x==0)
+        alert("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  Did you get"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t [a+(2-4)+a]?"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWell, [a+2-4+a] is equivalent to [a+(2-4)+a]."+
+        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLet's try another one!");
+    else if(x==6) {
+        alert("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  Did you get"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t [a+(2-4)+a]?"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWell, [a+2-4+a] is equivalent to [a+(2-4)+a]."+
+        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLet's try another one!");
+        alert("\t\t\t\t\t\t      NOTE:\n\t\t\t\tWe want to know what you think, \n   so we WILL NOT tell you whether your answer is right or wrong. \n\n\tOnce you select your answer, the next problem will come up.\n\n\n\t   Please remember to choose your answer as quickly and as \n\t\t\t\t\t  accurately as you can!")
+        document.getElementById("heading").innerText = "Problems";
+    }
+    else if(x==48) {
+        alert("Now pick the ones that AREN'T equal!");
+        document.getElementById("question").innerText = "Which expression is NOT equivalent to the one given?";
+    }
+    else if(x==54)
+        alert("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  Did you get"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t [a+(2-4)+a]?"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWell, [a+2-4+a] is equivalent to [a+(2-4)+a]."+
+        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLet's try another one!");
+    else if(x==60) {
+        alert("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  Did you get"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t [a+(2-4)+a]?"+
+        "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWell, [a+2-4+a] is equivalent to [a+(2-4)+a]."+
+        "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLet's try another one!");
+        alert("\t\t\t\t\t\t      NOTE:\n\t\t\t\tWe want to know what you think, \n   so we WILL NOT tell you whether your answer is right or wrong. \n\n\tOnce you select your answer, the next problem will come up.\n\n\n\t   Please remember to choose your answer as quickly and as \n\t\t\t\t\t  accurately as you can!")
+        document.getElementById("heading").innerText = "Problems";
+    }
+
+    document.getElementById("p1").src = problems[x].src; 
+    document.getElementById("p2").src = problems[x+1].src;
+    document.getElementById("p3").src = problems[x+2].src; 
+    document.getElementById("p4").src = problems[x+3].src;
+    document.getElementById("p5").src = problems[x+4].src; 
+    document.getElementById("p6").src = problems[x+5].src;
+    x+=6; 
+}
+
+var n=0;
+function nextTarget() {
+    document.getElementById("p").src = targets[n].src;
+    n+=1;
+}

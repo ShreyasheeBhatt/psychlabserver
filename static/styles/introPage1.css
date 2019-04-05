@@ -1,0 +1,70 @@
+#wrapper {
+	position: relative;
+	text-align: center;
+	padding: 1%;
+}
+
+.child {
+	display: inline-block;
+}
+
+#secondDiv {
+	display: none;
+}
+
+#thirdDiv {
+	display: none;
+}
+
+#fourthDiv {
+	display: none;
+}
+
+button {
+	font-size: 1.5em; 
+}
+
+p {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+table {
+	padding-left: 10%;
+	padding-right: 10%; 
+}
+
+tr {
+	max-width: 40%;
+	width: auto;
+}
+
+td {
+	border-style: solid;
+	border-color: black;
+}
+
+#img1 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+#img2 {
+	max-height: 80%; 
+	max-width: 80%; 
+	height: auto;
+	width: auto;
+}
+
+
+#nextButton img {
+	height: 100px;
+	position: absolute;
+	bottom: 4%; 
+	right: 5%;
+}
